@@ -11,9 +11,10 @@ const app = express();
 app.use(cors());
 app.use(helmet());
 app.use(express.json());
+
 app.use('/leituradeimagens', imageRoutes);
 
 const PORT = process.env.PORT || 3333;
 app.listen(PORT, () => {
-  console.log(`Aplicação rodando em http://localhost:${PORT}/leituradeimagens`);
+    console.log(`Aplicação rodando em http://localhost:${PORT}/leituradeimagens`);
 });
