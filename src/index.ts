@@ -15,5 +15,5 @@ app.use('/leituradeimagens', imageRoutes);
 
 const PORT = process.env.PORT || 3333;
 app.listen(PORT, () => {
-    console.log(`Aplicação rodando em http://localhost:${PORT}/leituradeimagens`);
-  });
+  console.log(`Aplicação rodando em http://localhost:${PORT}/leituradeimagens`);
+});
