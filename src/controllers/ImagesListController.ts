@@ -45,7 +45,7 @@ export const listImages = (req: Request, res: Response): Response | void => {
             ]
         };
 
-        // 
+        // http://localhost:3333/api/images
     } else {
         data = {
             customer_code: 'string',
