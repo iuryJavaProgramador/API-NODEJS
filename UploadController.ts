@@ -1,3 +1,5 @@
+
+/*
 import express, { Request, Response } from 'express';
 import * as yup from 'yup';
 import axios from 'axios';
@@ -64,4 +66,4 @@ router.post('/upload', async (req: Request, res: Response) => {
     }
 });
 
-export default router;
+export default router;   */

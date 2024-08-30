@@ -1,4 +1,4 @@
-import express, { Request, Response } from 'express';
+/* import express, { Request, Response } from 'express';
 import * as yup from 'yup';
 
 const router = express.Router();
@@ -47,4 +47,4 @@ router.patch('/confirm', async (req: Request, res: Response) => {
     }
 });
 
-export default router;
+export default router;  */
